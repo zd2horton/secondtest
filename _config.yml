@@ -1,0 +1,6 @@
+title: Zachary Horton's Portfolio
+logo: /assets/img/mylogo.png
+description: Portfolio for recent projects and prior university work.
+show_downloads: true
+site_favicon: favicon.ico
+permalink: /:categories/:year/:month/:day/:title:output_ext
