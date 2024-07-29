@@ -5,7 +5,7 @@ title: "This Is A Project"
 description: "Put on your seatbelt!"
 projectyear: 2019
 projectperiod: Year 2
-url: https://github.com/zd2horton/-Pokemon-Bleached-White
+project_url: https://github.com/zd2horton/-Pokemon-Bleached-White
 date: 2024-07-04
 engine: Unity
 categories: FinishedProject

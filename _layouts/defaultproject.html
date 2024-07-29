@@ -20,8 +20,8 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 	  <h3>{{ page.projectyear }}, {{ page.projectperiod }}</h2>
       <h3> Engine Used: {{ page.engine }}</h3>
-	  <a href="{{ page.url }}" class="btn">View on GitHub</a>
-      <a href="{{ page.url | append: '/archive/refs/heads/main.zip' }}" class="btn">Download .zip</a>
+	  <a href="{{ page.project_url }}" class="btn">View on GitHub</a>
+      <a href="{{ page.project_url | append: '/archive/refs/heads/main.zip' }}" class="btn">Download .zip</a>
     </header>
 
     <main id="content" class="main-content" role="main">
