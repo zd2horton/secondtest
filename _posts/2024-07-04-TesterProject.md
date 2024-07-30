@@ -11,12 +11,6 @@ engine: Unity
 categories: FinishedProject
 skills: "Binky, Binky, Bop"
 ---
-### Skills, Engines Used: {{page.skills}}
-
-- Unity
-- Other Thing
-
----
 
 Wow! What a cool thing.
 
