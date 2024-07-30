@@ -9,8 +9,9 @@ project_url: https://github.com/zd2horton/-Pokemon-Bleached-White
 date: 2024-07-04
 engine: Unity
 categories: FinishedProject
+skills: "Binky, Binky, Bop"
 ---
-### Skills, Engines Used: 
+### Skills, Engines Used: {{page.skills}}
 
 - Unity
 - Other Thing

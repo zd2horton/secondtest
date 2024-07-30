@@ -13,13 +13,13 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
 	  <h2>{{ page.projectyear }}, {{ page.projectperiod }}</h2>
-      <h2> Engine Used: {{ page.engine }}</h3>
+      <h2>Engine Used: {{ page.engine }}</h3>
 	  <h1 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+	  <h3>Skills, Engines Used: {{page.skills}}</h3>
 	  <a href="{{ page.project_url }}" class="btn">View on <strong>GitHub</strong></a>
       <a href="{{ page.project_url | append: '/archive/refs/heads/main.zip' }}" class="btn">Download <strong>.zip</strong></a>
     </header>
