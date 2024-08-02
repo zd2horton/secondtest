@@ -7,7 +7,7 @@ layout: default
 {% include halfcolumn.html %}
 
 <body>
-	<div style="text-align: center; width: 50%">
+	<div style="text-align: center; margin: 0px 0px 10px 0px;">
 	    <a href="https://x.com/home" title="Personal Projects">
 	      <img src="/zd2hortontest.github.io/assets/img/PersonalProjects.png" alt="Personal Projects" />
 		</a>
