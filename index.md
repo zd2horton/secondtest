@@ -1,6 +1,7 @@
 ---
 youtubeId: LWVKgK0nHd8
 layout: default
+home: true
 ---
 
 <center>{% include youtubePlayer.html id=page.youtubeId %}</center>
