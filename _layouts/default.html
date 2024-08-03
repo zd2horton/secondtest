@@ -26,5 +26,11 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
     </main>
+	
+	<footer class="site-footer">
+      {% if page.home%}
+		<a href="{{ site.github.repository_url }}" class="btn"><strong>University Posts (Old Website)</strong></a>
+	  {% endif %}
+    </footer>
   </body>
 </html>
