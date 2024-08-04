@@ -12,7 +12,7 @@ categories: FinishedProject
 skills: "Binky, Binky, Bop"
 ---
 
-Wow! What a cool thing.
+<p style="text-align: center;">Wow! What a cool thing.</p>
 
 It helped with things.
 
