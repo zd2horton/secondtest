@@ -56,9 +56,7 @@ The given extract takes place after the file is loaded, with the first segment c
 
 Both projects used different curves, Siege Attack using a more basic curve that drops off at the end also having some potential for bouncing, while Space Invaders allowed for gravity, quadratic and sine inspired movements for alternate gameplay modes.<br><br>
 
-The former movement had ships moving in a forward bent curve, while the latter gave more "robotic" alternating movement.<br><br>
-
-Siege Attack in the following exerpt pressurises vertical velocity with a negative value over time, while the horizontal velocity steadily decelerates:
+The former movement had ships moving in a forward bent curve, while the latter gave more "robotic" alternating movement. Siege Attack in the following exerpt pressurises vertical velocity with a negative value over time, while the horizontal velocity steadily decelerates:
 </p>
 
 ```
