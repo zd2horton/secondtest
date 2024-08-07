@@ -55,6 +55,11 @@ Both projects used different curves, Siege Attack using a more basic curve that 
 
 Siege Attack in the following exerpt pressurises vertical velocity with a negative value over time, while the horizontal velocity steadily decelerates:
 
+  ~~~
+  foo
+    bar
+  ~~~
+
 ## Blocks of code
 
 ```
