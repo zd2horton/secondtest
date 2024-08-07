@@ -12,6 +12,18 @@ categories: FinishedProject
 skills: "Calculated Curves, Asset Loading, Class Creation"
 bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
+<head>
+<style>
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #ed0000;
+    background-image: url({page.bannerimage});
+	filter: blur(3px);
+};
+</style>
+</head>
+
 <p style="text-align: center;">
 ESD, or "Entertainment Software Development", involved the creation of many C++ projects in the proprietary ASGE engine. This involved aspects such as creating the game window itself with dimensions, defining functions in header files to use in the main files, and initialising of individual sprites for use in each game.<br><br>
 
