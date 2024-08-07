@@ -59,6 +59,13 @@ Siege Attack in the following exerpt pressurises vertical velocity with a negati
   foo
     bar
   ~~~
+  
+  
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 ## Blocks of code
 
