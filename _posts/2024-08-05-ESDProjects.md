@@ -55,6 +55,14 @@ Both projects used different curves, Siege Attack using a more basic curve that 
 
 Siege Attack in the following exerpt pressurises vertical velocity with a negative value over time, while the horizontal velocity steadily decelerates:
 
+## Blocks of code
+
+```
+let message = 'Hello world';
+alert(message);
+```
+
+
 ```
 		vector2 current_velocity = cannonballs[index].getVelocity();
 		current_velocity.y += 0.1 * dt_sec * gravity;
