@@ -19,33 +19,33 @@ ESD, or "Entertainment Software Development", involved the creation of many C++ 
 Quite unique to Siege Attack was the method of importing levels, done through loading text files detailing each block required with its texture location and the required co-ordinates. 
 
 ~~~
-	if (text_file.is_open())
-	{
+		if (text_file.is_open())
+		{
+			for (int i = 0; i < NUMBER_OF_PIECES; i++)
+			{
+				getline(text_file, imported);
+				block_direct[i] = imported;
+				getline(text_file, imported);
+				import_x[i] = imported;
+				getline(text_file, imported);
+				import_y[i] = imported;
+			}
+			text_file.close();
+		}
+		...
 		for (int i = 0; i < NUMBER_OF_PIECES; i++)
 		{
-			getline(text_file, imported);
-			block_direct[i] = imported;
-			getline(text_file, imported);
-			import_x[i] = imported;
-			getline(text_file, imported);
-			import_y[i] = imported;
-		}
-		text_file.close();
-	}
-	...
-	for (int i = 0; i < NUMBER_OF_PIECES; i++)
-	{
-		if (!building_pieces[i].addSpriteComponent(renderer.get(), block_direct[i]))
-		{
-			signalExit();
-		}
+			if (!building_pieces[i].addSpriteComponent(renderer.get(), block_direct[i]))
+			{
+				signalExit();
+			}
 
-		ASGE::Sprite* building_sprite = building_pieces[i].spriteComponent()->getSprite();
-		building_sprite->xPos(block_x[i]);
-		building_sprite->yPos(block_y[i]);
-		building_pieces[i].setVisibility(true);
-	}
-	return;
+			ASGE::Sprite* building_sprite = building_pieces[i].spriteComponent()->getSprite();
+			building_sprite->xPos(block_x[i]);
+			building_sprite->yPos(block_y[i]);
+			building_pieces[i].setVisibility(true);
+		}
+		return;
 ~~~
 
 The given extract takes place after the file is loaded, with the first segment collecting the data as a group of arrays. After being converted into the required data types, the subsequent segment gives each block's data a sprite renderer, and fully places down the blocks where needed and as needed.
