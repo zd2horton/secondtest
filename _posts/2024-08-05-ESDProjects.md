@@ -20,7 +20,7 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
     background-color: #ed0000;
     background-image: url("/zd2hortontest.github.io/assets/img/UniProjects.png");
 	background-repeat: no-repeat;
-	background-size:cover
+	background-size: cover;
 	filter: blur(2px);
 };
 </style>
