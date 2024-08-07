@@ -99,7 +99,7 @@ While the quadratic and sine movements for Space Invaders employ specific calcul
 </p>
 
 ```cpp
-			if (menu_choice == 2)
+			if (menu_choice == 2) //Quadratic
 			{
 
 				enemy_x += dt_sec * enemy_speed * enemies_direction * 2;
@@ -112,7 +112,7 @@ While the quadratic and sine movements for Space Invaders employ specific calcul
 				}
 			}
 
-			if (menu_choice == 3)
+			if (menu_choice == 3) //Sine
 			{
 				enemy_x += dt_sec * enemy_speed * enemies_direction;
 				enemy_y += sin(ticks / 20);
