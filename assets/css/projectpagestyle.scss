@@ -6,6 +6,6 @@
     color: #fff;
     text-align: center;
     background-color: #ed0000;
-    background-image: url({{page.bannerimage}});
+    background-image: url({page.bannerimage});
 	filter: blur(3px);
 };
