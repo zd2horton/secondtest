@@ -21,7 +21,7 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
     background-image: url("/zd2hortontest.github.io/assets/img/UniProjects.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	filter: blur(2px);
+	backdrop-filter: blur(2px);
 };
 </style>
 </head>
