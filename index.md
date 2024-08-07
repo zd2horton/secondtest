@@ -22,7 +22,7 @@ home: true
 	  </div>
 	  <div class="column2">
 		<a href="https://x.com/home" title="Oakrot Games Projects">
-		  <img src="/zd2hortontest.github.io/assets/img/OakrotProjects.png" alt="Oakrot Games Projects" />
+		  <img src="/secondtest/assets/img/OakrotProjects.png" alt="Oakrot Games Projects" />
 		</a>
 	  </div>
 	</div>
