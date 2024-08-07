@@ -12,6 +12,12 @@ categories: FinishedProject
 skills: "Calculated Curves, Asset Loading, Class Creation"
 ---
 
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
 <p style="text-align: center;">
 ESD, or "Entertainment Software Development", involved the creation of many C++ projects in the proprietary ASGE engine. This involved aspects such as creating the game window itself with dimensions, defining functions in header files to use in the main files, and initialising of individual sprites for use in each game. The engine was very flexible, and allowed the creation of basic games such as these to more complex ordeals such as online card games (shown in Play and Games). Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) utilised calculated curves in their gameplays, each project providing valuable experience in physics creation!
 
@@ -62,10 +68,7 @@ Siege Attack in the following exerpt pressurises vertical velocity with a negati
   
   
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+
 
 ## Blocks of code
 
