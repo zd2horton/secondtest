@@ -11,18 +11,12 @@ engine: ASGE C++ Engine
 categories: FinishedProject
 skills: "Calculated Curves, Asset Loading, Class Creation"
 ---
-
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
-
 <p style="text-align: center;">
 ESD, or "Entertainment Software Development", involved the creation of many C++ projects in the proprietary ASGE engine. This involved aspects such as creating the game window itself with dimensions, defining functions in header files to use in the main files, and initialising of individual sprites for use in each game. The engine was very flexible, and allowed the creation of basic games such as these to more complex ordeals such as online card games (shown in Play and Games). Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) utilised calculated curves in their gameplays, each project providing valuable experience in physics creation!
 
 
 Quite unique to Siege Attack was the method of importing levels, done through loading text files detailing each block required with its texture location and the required co-ordinates. 
+</p>
 
 ```
 		if (text_file.is_open())
@@ -54,37 +48,14 @@ Quite unique to Siege Attack was the method of importing levels, done through lo
 		return;
 ```
 
+<p style="text-align: center;">
 The given extract takes place after the file is loaded, with the first segment collecting the data as a group of arrays. After being converted into the required data types, the subsequent segment gives each block's data a sprite renderer, and fully places down the blocks where needed and as needed.
 
 
 Both projects used different curves, Siege Attack using a more basic curve that drops off at the end also having some potential for bouncing, while Space Invaders allowed for gravity, quadratic and sine inspired movements for alternate gameplay modes. The former movement had ships moving in a forward bent curve, while the latter gave more "robotic" alternating movement. 
 
 Siege Attack in the following exerpt pressurises vertical velocity with a negative value over time, while the horizontal velocity steadily decelerates:
-
-  ~~~
-  foo
-    bar
-  ~~~
-  
-  
-```
-
-
-## Blocks of code
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
-
-```
-let message = 'Hello world';
-alert(message);
-```
-
+</p>
 
 ```
 		vector2 current_velocity = cannonballs[index].getVelocity();
@@ -121,8 +92,9 @@ alert(message);
 		cannonballs[index].setVelocity(current_velocity);
 ```
 		
-	
+<p style="text-align: center;">
 While the quadratic and sine movements for Space Invaders employ specific calculations to calculate each ship's new co-ordinates:
+</p>
 
 ```
 			if (menu_choice == 2)
@@ -153,4 +125,3 @@ While the quadratic and sine movements for Space Invaders employ specific calcul
 			}
 ```
 
-</p>
