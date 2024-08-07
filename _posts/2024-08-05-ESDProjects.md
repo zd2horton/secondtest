@@ -58,6 +58,14 @@ Siege Attack in the following exerpt pressurises vertical velocity with a negati
 ## Blocks of code
 
 ```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
+
+```
 let message = 'Hello world';
 alert(message);
 ```
