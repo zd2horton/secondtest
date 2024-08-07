@@ -20,7 +20,7 @@ The engine was very flexible, and allowed the creation of basic games such as th
 Quite unique to Siege Attack was the method of importing levels, done through loading text files detailing each block required with its texture location and the required co-ordinates. 
 </p>
 
-```
+```cpp
 		if (text_file.is_open())
 		{
 			for (int i = 0; i < NUMBER_OF_PIECES; i++)
@@ -59,7 +59,7 @@ Both projects used different curves, Siege Attack using a more basic curve that 
 The former movement had ships moving in a forward bent curve, while the latter gave more "robotic" alternating movement. Siege Attack in the following exerpt pressurises vertical velocity with a negative value over time, while the horizontal velocity steadily decelerates:
 </p>
 
-```
+```cpp
 		vector2 current_velocity = cannonballs[index].getVelocity();
 		current_velocity.y += 0.1 * dt_sec * gravity;
 
@@ -98,7 +98,7 @@ The former movement had ships moving in a forward bent curve, while the latter g
 While the quadratic and sine movements for Space Invaders employ specific calculations to calculate each ship's new co-ordinates:
 </p>
 
-```
+```cpp
 			if (menu_choice == 2)
 			{
 
