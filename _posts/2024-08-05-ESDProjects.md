@@ -18,7 +18,7 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
     color: #fff;
     text-align: center;
     background-color: #ed0000;
-    background-image: url({page.bannerimage});
+    background-image: url("/zd2hortontest.github.io/assets/img/UniProjects.png");
 	filter: blur(3px);
 };
 </style>
