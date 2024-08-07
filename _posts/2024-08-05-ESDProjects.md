@@ -18,7 +18,7 @@ ESD, or "Entertainment Software Development", involved the creation of many C++ 
 
 Quite unique to Siege Attack was the method of importing levels, done through loading text files detailing each block required with its texture location and the required co-ordinates. 
 
-~~~
+```
 		if (text_file.is_open())
 		{
 			for (int i = 0; i < NUMBER_OF_PIECES; i++)
@@ -46,7 +46,7 @@ Quite unique to Siege Attack was the method of importing levels, done through lo
 			building_pieces[i].setVisibility(true);
 		}
 		return;
-~~~
+```
 
 The given extract takes place after the file is loaded, with the first segment collecting the data as a group of arrays. After being converted into the required data types, the subsequent segment gives each block's data a sprite renderer, and fully places down the blocks where needed and as needed.
 
@@ -55,7 +55,7 @@ Both projects used different curves, Siege Attack using a more basic curve that 
 
 Siege Attack in the following exerpt pressurises vertical velocity with a negative value over time, while the horizontal velocity steadily decelerates:
 
-~~~
+```
 		vector2 current_velocity = cannonballs[index].getVelocity();
 		current_velocity.y += 0.1 * dt_sec * gravity;
 
@@ -88,12 +88,12 @@ Siege Attack in the following exerpt pressurises vertical velocity with a negati
 		ball_sprite->yPos(ball_sprite->yPos() + current_velocity.y);
 
 		cannonballs[index].setVelocity(current_velocity);
-~~~	
+```
 		
 	
 While the quadratic and sine movements for Space Invaders employ specific calculations to calculate each ship's new co-ordinates:
 
-~~~	
+```
 			if (menu_choice == 2)
 			{
 
@@ -120,6 +120,6 @@ While the quadratic and sine movements for Space Invaders employ specific calcul
 				position_counter += 1;
 				enemies_direction *= -1;
 			}
-~~~
+```
 
 </p>
