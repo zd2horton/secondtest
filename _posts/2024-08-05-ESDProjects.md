@@ -127,4 +127,3 @@ While the quadratic and sine movements for Space Invaders employ specific calcul
 				enemies_direction *= -1;
 			}
 ```
-</body>
