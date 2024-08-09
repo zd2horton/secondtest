@@ -14,7 +14,7 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
 <head>
 	<style>
-	/*.page-header {
+	.page-header {
 		color: #fff;
 		text-align: center;
 		background-color: #ed0000;
@@ -23,7 +23,7 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 		background-size: cover;
 		background-position: center;
 		filter: blur(2px);
-	};*/
+	};
 	</style>
 </head>
 
