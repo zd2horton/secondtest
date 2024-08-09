@@ -14,14 +14,17 @@
   </head>
   <body>
 
+	<div class="bg-image"></div>
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-	  <h2>{{ page.projectyear }}, {{ page.projectperiod }}</h2>
-      <h2>Engine Used: {{ page.engine }}</h2>
-	  <h3>Notable Skills: {{page.skills}}</h3>
-	  <h1 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h1>
-	  <a href="{{ page.project_url }}" class="btn">View on <strong>GitHub</strong></a>
-      <a href="{{ page.project_url | append: '/archive/refs/heads/main.zip' }}" class="btn">Download <strong>.zip</strong></a>
+	  <div class="bg-text">
+		  <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+		  <h2>{{ page.projectyear }}, {{ page.projectperiod }}</h2>
+		  <h2>Engine Used: {{ page.engine }}</h2>
+		  <h3>Notable Skills: {{page.skills}}</h3>
+		  <h1 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h1>
+		  <a href="{{ page.project_url }}" class="btn">View on <strong>GitHub</strong></a>
+		  <a href="{{ page.project_url | append: '/archive/refs/heads/main.zip' }}" class="btn">Download <strong>.zip</strong></a>
+	  </div>
     </header>
 
     <main id="content" class="main-content" role="main">
