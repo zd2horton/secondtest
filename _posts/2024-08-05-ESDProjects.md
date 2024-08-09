@@ -13,18 +13,33 @@ skills: "Calculated Curves, Asset Loading, Class Creation"
 bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
 <head>
-<style>
-.page-header {
-    color: #fff;
-    text-align: center;
-    background-color: #ed0000;
-    background-image: url("/zd2hortontest.github.io/assets/img/UniProjects.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	/*backdrop-filter: blur(5px);*/
-};
-</style>
+	<style>
+	/*.page-header {
+		color: #fff;
+		text-align: center;
+		background-color: #ed0000;
+		background-image: url("/zd2hortontest.github.io/assets/img/UniProjects.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		filter: blur(5px);
+	};*/
+
+	.background{
+		position: absolute;
+		text-align: center;
+		background-color: #ed0000;
+		background-image: url("/zd2hortontest.github.io/assets/img/UniProjects.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		filter: blur(5px);
+	}
+	</style>
 </head>
+
+<body>
+	<div class="background"></div>
 
 <p style="text-align: center;">
 ESD, or "Entertainment Software Development", involved the creation of many C++ projects in the proprietary ASGE engine. This involved aspects such as creating the game window itself with dimensions, defining functions in header files to use in the main files, and initialising of individual sprites for use in each game.<br><br>
@@ -141,4 +156,4 @@ While the quadratic and sine movements for Space Invaders employ specific calcul
 				enemies_direction *= -1;
 			}
 ```
-
+</body>
