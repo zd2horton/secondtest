@@ -2,9 +2,25 @@
 ---
 
 @import "{{ site.theme }}";
+
+
+
+
 .page-header {
     color: #fff;
     text-align: center;
     background-color: #ed0000;
     background-image: linear-gradient(90deg, #25244C, #25234A);
 };
+
+.background{
+	position: absolute;
+	text-align: center;
+	background-color: #ed0000;
+	background-image: url("/zd2hortontest.github.io/assets/img/UniProjects.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	filter: blur(5px);
+	z-index: -1;
+}

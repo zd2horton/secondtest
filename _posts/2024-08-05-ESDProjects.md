@@ -24,17 +24,6 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 		background-position: center;
 		filter: blur(5px);
 	};*/
-
-	.background{
-		position: absolute;
-		text-align: center;
-		background-color: #ed0000;
-		background-image: url("/zd2hortontest.github.io/assets/img/UniProjects.png");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		filter: blur(5px);
-	}
 	</style>
 </head>
 
