@@ -55,7 +55,6 @@ Both projects used different curves, Siege Attack using a more basic dropping of
 
 The quadratic movement moved ships in a forward bent curve, while the latter gave more "robotic" alternating movement. Siege Attack in the following exerpt pressurises vertical velocity with a negative value over time, while the horizontal velocity steadily decelerates:
 </p>
-</p>
 
 ```cpp
 		vector2 current_velocity = cannonballs[index].getVelocity();
