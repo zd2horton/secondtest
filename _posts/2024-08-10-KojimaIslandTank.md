@@ -9,7 +9,7 @@ project_url: https://github.com/zd2horton/Po3D
 date: 2024-08-10
 engine: Unity
 categories: FinishedProject
-skills: "Maya, Modelling, Character Physics + Controller, Cameras and Toggling"
+skills: "Maya Modelling, Character Physics and Controller, Cameras and Toggling"
 bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
 <p style="text-align: center;">
