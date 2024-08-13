@@ -2,7 +2,7 @@
 youtubeId: LWVKgK0nHd8
 layout: projectpage
 title: "ESD - Space Invaders & Siege Attack"
-description: "Put on your seatbelt!"
+description: "Two curve intensive projects in ASGE"
 projectyear: 2018
 projectperiod: Year 1
 project_url: https://github.com/zd2horton/space-invaders-zd2horton
@@ -123,3 +123,5 @@ While the quadratic and sine movements for Space Invaders employ specific calcul
 				enemies_direction *= -1;
 			}
 ```
+
+Looking back, both projects were handled well and were good showings of what was learned. They may have liked some notable polish however, whether by fleshing out the contents of Siege Attack more alongside adding the feeling of weight to the cannonballs, and by properly polishing Space Invaders, notably in the gravity mode and solidifying that all player shots should spawn within sensible distance of the ship.
