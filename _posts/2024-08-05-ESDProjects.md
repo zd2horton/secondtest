@@ -2,7 +2,7 @@
 youtubeId: LWVKgK0nHd8
 layout: projectpage
 title: "ESD - Space Invaders & Siege Attack"
-description: "Two curve intensive projects in ASGE"
+description: "Two curve oriented projects in ASGE"
 projectyear: 2018
 projectperiod: Year 1
 project_url: https://github.com/zd2horton/space-invaders-zd2horton
@@ -13,9 +13,9 @@ skills: "Calculated Curves, Asset Loading, Class Creation"
 bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
 <p style="text-align: center;">
-ESD, or "Entertainment Software Development", involved developing many C++ projects in the proprietary ASGE engine. The engine was very flexible, and allowed for initial C++ experience alongside the creation of basic games such as these to more complex ordeals such as online card games (shown in Play and Games).<br><br>
+ESD (Entertainment Software Development) involved developing many C++ projects in the proprietary ASGE engine. The engine was very flexible, allowing for initial C++ development experience to create basic games such as these or more complex ordeals such as online card games (shown in "Play and Games").<br><br>
 
-Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) were good examples of the engine in this module, both also providing uses for calculated curves in their physics! Unique to Siege Attack was its method of importing levels, done through loading text files detailing each block's data. </p>
+Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) were good examples of ASGE in this module, providing uses for calculated curves in their physics! Unique to Siege Attack was its method of importing levels, done through loading text files detailing each block's data for the level. </p>
 
 ```cpp
 		if (text_file.is_open())
@@ -51,9 +51,9 @@ Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) were good exa
 This extract is called after the file is loaded, with the first segment collecting the data (sprite location, map co-ordinates) as a group of arrays. After being converted as needed, the proceding segment gives each block's data a sprite renderer, and fully places down the blocks where needed.<br><br>
 
 
-Both projects used different curves, Siege Attack using a more basic dropping off curve with some potential for bouncing, while Space Invaders allowed for gravity, quadratic and sine inspired movements as alternate modes.<br><br>
+Both projects utilised different curves, Siege Attack using a more basic parabola while Space Invaders allowed for gravity, quadratic and sine inspired movements as alternate modes.<br><br>
 
-The quadratic movement moved ships in a forward bent curve, while the latter gave more "robotic" alternating movement. Siege Attack in the following exerpt pressurises vertical velocity with a negative value over time, while the horizontal velocity steadily decelerates:
+The quadratic movement moved ships in another parabola curve, while the latter gave more "robotic" alternating movement. Siege Attack in the following exerpt lets the cannonball decay in the parabola curve, decelerating each axis' velocity:
 </p>
 
 ```cpp
@@ -92,7 +92,7 @@ The quadratic movement moved ships in a forward bent curve, while the latter gav
 ```
 		
 <p style="text-align: center;">
-While the quadratic and sine movements for Space Invaders employ specific calculations to calculate each ship's new co-ordinates:
+While the quadratic and sine movements for Space Invaders employ their specific calculations to calculate each ship's new co-ordinates:
 </p>
 
 ```cpp
@@ -124,4 +124,4 @@ While the quadratic and sine movements for Space Invaders employ specific calcul
 			}
 ```
 
-Looking back, both projects were handled well and were good showings of what was learned. They may have liked some notable polish however, whether by fleshing out the contents of Siege Attack more alongside adding the feeling of weight to the cannonballs, and by properly polishing Space Invaders, notably in the gravity mode and solidifying that all player shots should spawn within sensible distance of the ship.
+Looking back, both projects were handled well and were good showings of what was learned during that period. They would have benefitted from notable polish however, whether by further fleshing out the contents of Siege Attack alongside adding a weightier feel to the cannonballs, and by further polishing Space Invaders, most of all in the gravity mode and assuring that all player shots spawn within sensible distance of the ship even while it moves.
