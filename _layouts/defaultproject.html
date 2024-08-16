@@ -15,8 +15,8 @@
   <body>
 
     <header class="page-header" role="banner">
-	  <a href="{{ site.url }}" class="btn">Back to <strong>Home</strong></a>
 	  <a href="{{ site.url | append :'/finishedproject'}}" class="btn">Back to <strong>Project Selection</strong></a>
+	  <a href="{{ site.url }}" class="btn">Back to <strong>Home</strong></a>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
 	  <h2>{{ page.projectyear }}, {{ page.projectperiod }}</h2>
       <h2>Engine Used: {{ page.engine }}</h2>
