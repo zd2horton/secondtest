@@ -13,7 +13,8 @@
     {% include head-custom.html %}
   </head>
   <body>
-  
+
+    <header class="page-header" role="banner">
 	  <a href="{{ site.url }}" class="btn">Back to <strong>Home</strong></a>
 	  <a href="{{ site.url | append :'/finishedproject'}}" class="btn">Back to <strong>Project Selection</strong></a>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
@@ -24,10 +25,6 @@
 	  <a href="{{ page.project_url }}" class="btn">View on <strong>GitHub</strong></a>
       <a href="{{ page.project_url | append: '/archive/refs/heads/master.zip' }}" class="btn">Download <strong>.zip</strong></a>
     </header>
-
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-    </main>
   </body>
 </html>
 
