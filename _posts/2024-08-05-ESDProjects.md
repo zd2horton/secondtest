@@ -13,10 +13,11 @@ skills: "Calculated Curves, Asset Loading, Class Creation"
 bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
 <p style="text-align: center;">
-<h2><ins>The Module/Tools</ins></h2>
-ESD (Entertainment Software Development) involved developing many C++ projects in the proprietary ASGE engine. The engine was very flexible, allowing for initial C++ development experience to create basic games such as these or more complex ordeals such as online card games (shown in "Play and Games").<br><br>
+<h2><ins>The Module and Tools</ins></h2>
+ESD (Entertainment Software Development) involved developing many C++ projects in the proprietary ASGE engine. The engine was very flexible, allowing for initial C++ development experience to create basic games such as these or more complex ordeals such as online card games (shown in "LLP: Play and Games").<br><br>
 
-Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) were good examples of ASGE in this module, providing uses for calculated curves in their physics! Unique to Siege Attack was its method of importing levels, done through loading text files detailing each block's data for the level. </p>
+<h2><ins>The Projects</ins></h2>
+Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) though basic, were good examples of ASGE in this module, providing uses for calculated curves in their physics! Unique to Siege Attack was its method of importing levels, done through loading text files detailing each block's data for the level. </p>
 
 ```cpp
 		if (text_file.is_open())
@@ -52,6 +53,7 @@ Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) were good exa
 This extract is called after the file is loaded, with the first segment collecting the data (sprite location, map co-ordinates) as a group of arrays. After being converted as needed, the proceding segment gives each block's data a sprite renderer, and fully places down the blocks where needed.<br><br>
 
 
+<h2><ins>Notable Areas</ins></h2>
 Both projects utilised different curves, Siege Attack using a more basic parabola while Space Invaders allowed for gravity, quadratic and sine inspired movements as alternate modes.<br><br>
 
 The quadratic movement moved ships in another parabola curve, while the latter gave more "robotic" alternating movement. Siege Attack in the following exerpt lets the cannonball decay in the parabola curve, decelerating each axis' velocity:
@@ -125,4 +127,11 @@ While the quadratic and sine movements for Space Invaders employ their specific 
 			}
 ```
 
-Looking back, both projects were handled well and were good showings of what was learned during that period. They would have benefitted from notable polish however, whether by further fleshing out the contents of Siege Attack alongside adding a weightier feel to the cannonballs, and by further polishing Space Invaders, most of all in the gravity mode and assuring that all player shots spawn within sensible distance of the ship even while it moves.
+<h2><ins>Strengths and Shortcomings</ins></h2>
+The projects were great at showcasing curves and provided not only insight into those, but were also valuable as a whole with starting in C# and game coding. The module began with basic examples of coding such as a number guessing game which were able to be done with prior experience, but each task leading up to and including these helped in creating a foundation for the rest of the courses.<br><br>
+
+However, with both projects more visual polish could have been used as they look basic in appearance. Alongside this, Siege Attack's cannonball controls do not give a directional indicator alongside having a lack of weight, both factors not providing much satisfaction to the player. Meanwhile, Space Invaders has issues with its different modes though the ship's owns bullets can sometimes spawn away from it notably if the ship is movine. The gravity and sine movements also falter in some ways, with the former dropping down far too quickly and lopsided and the latter having too small a curve thus making the enemies look as if they are vibrating.<br><br>
+
+
+<h2><ins>In Review</ins></h2>
+Looking back, both projects were handled well and were good showings of what was learned during that period. The module overall was also notable in providing a great foundation for the rest of the modules, even if C# and ASGE were not the focal points of most. The projects would have benefitted from notable polish however, both in visual and gameplay oriented ways. 
