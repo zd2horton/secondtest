@@ -13,7 +13,7 @@ skills: "Calculated Curves, Asset Loading, Class Creation"
 bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
 <p style="text-align: center;">
-## <ins>The Module/Tools</ins>
+<h2><ins>The Module/Tools</ins></h2><br>
 ESD (Entertainment Software Development) involved developing many C++ projects in the proprietary ASGE engine. The engine was very flexible, allowing for initial C++ development experience to create basic games such as these or more complex ordeals such as online card games (shown in "Play and Games").<br><br>
 
 Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) were good examples of ASGE in this module, providing uses for calculated curves in their physics! Unique to Siege Attack was its method of importing levels, done through loading text files detailing each block's data for the level. </p>
