@@ -128,7 +128,7 @@ While the quadratic and sine movements for Space Invaders employ their specific 
 ```
 
 <h2><ins>Strengths and Shortcomings</ins></h2>
-The projects were great at showcasing curves and provided not only insight into those, but were also valuable as a whole with starting in C# and game coding. The module began with basic examples of coding such as a number guessing game which were able to be done with prior experience, but each task leading up to and including these helped in creating a foundation for the rest of the courses.<br><br>
+The projects were great at showcasing curves and provided not only insight into those, but were also valuable as a whole with starting in C# and game coding. The module began with basic examples of coding such as a number guessing game which were able to be done with prior experience, but each task leading up to and including these helped in creating a foundation for the rest of the courses.<br>
 
 However, with both projects more visual polish could have been used as they look basic in appearance. Alongside this, Siege Attack's cannonball controls do not give a directional indicator alongside having a lack of weight, both factors not providing much satisfaction to the player. Meanwhile, Space Invaders has issues with its different modes though the ship's owns bullets can sometimes spawn away from it notably if the ship is movine. The gravity and sine movements also falter in some ways, with the former dropping down far too quickly and lopsided and the latter having too small a curve thus making the enemies look as if they are vibrating.<br><br>
 
