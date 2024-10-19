@@ -14,7 +14,7 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
 <p style="text-align: center;">
 <h2><ins>The Module and Tools</ins></h2>
-Principles of 3D Environments introduced development and usage of both Maya and Unity skills (though the former was only used for this module), combining together for a finished experience. Before this combination effort, Unity tutorials were given as to familiarise with the engine and some of its basic capabilities.<br><br>
+Principles of 3D Environments introduced development and usage of both Maya and Unity skills (though the former was only used for this module), combining together for a finished experience. Before this combination effort, Unity tutorials were given as to familiarise with the engine and some of its basic capabilities.<br>
 
 <h2><ins>The Project</ins></h2>
 Through Maya, a tank model was created alongside detailed animations showcasing its various parts, with this being used in Unity as a playable vehicle to traverse a large island. The tank also recieved unique situational weapons for use with various obstacles, such as Galaxy Minstrel bullets for knocking down a box of Maltesers to clear the road of obstructing cubes. <br>
@@ -60,7 +60,7 @@ This sufficed for the tunnel cameras, but the cutscene camera's movement was cre
 		nextPoint = true;
 	}
 ```
-
+<br>
 <p style="text-align: center;">
 <h2><ins>Strengths and Shortcomings</ins></h2>
 The project allowed for many different aspects to begin and grow. Though general Unity is the notable highlight, others such as camera work, animations and character controls also had foundations with the project and were able to be developed further in later projects. The experience was also open to a lot of imagination, which helped liven the obstacles and weapons! 
@@ -69,6 +69,6 @@ However, issues surrounding the tank's controls, notably with aiming, were appar
 
 
 <h2><ins>In Review</ins></h2>
-Though the project's issues were bothersome, with movement generally stilted and slower than desired, it overall went well considering the lack of experience in both applications beforehand. The Unity work in specific provided valuable foundation to build from in Unity, and as experience would progress, many areas including camera and movement mechanics would be improved with far more optimised scripting.<br>
+Though the project's issues were bothersome, with movement generally stilted and slower than desired, it overall went well considering the lack of experience in both applications beforehand. The Unity work in specific provided valuable foundation to build from in Unity, and as experience would progress, many areas including camera and movement mechanics would be improved with far more optimised scripting.<br><br>
 
 Movement in particular would be notably smoothed out for the avatar character in the following year's "Gameplay Programming", one of a number of future experiences which would prove very valuable to a remastering of this project. The aiming system would also be a focal point in a remastering, likely having more attributes about it to limit so that the camera would not prove problematic.</p>
