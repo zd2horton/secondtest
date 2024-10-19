@@ -16,6 +16,7 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 <h2><ins>The Module and Tools</ins></h2>
 ESD (Entertainment Software Development) involved developing many C++ projects in the proprietary ASGE engine. The engine was very flexible, giving initial C++ development experience where basic or even more complex games could be developed, ranging from the games discussed here to an online card game (shown in "LLP: Play and Games").<br>
 
+
 <h2><ins>The Projects</ins></h2>
 Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) though basic, were good examples of ASGE in this module, providing different uses for calculated curves in their physics! Siege Attack had a unique method of importing levels, done through loading text files detailing each block's data for the level. </p>
 
@@ -126,7 +127,7 @@ While the quadratic and sine movements for Space Invaders utilise their specific
 				enemies_direction *= -1;
 			}
 ```
-
+<br><br>
 <h2><ins>Strengths and Shortcomings</ins></h2>
 The projects were great at showcasing curves and were also valuable as a whole in starting with C# and game coding. The module began with basic examples of coding such as a number guessing game which were able to be done with prior experience, but each task leading up to and including these helped in creating new foundations for the rest of the courses.<br>
 
