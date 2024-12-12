@@ -19,7 +19,7 @@ Development of gameplay oriented elements (movement, power-ups, cutscenes, enemi
 
 
 <h2><ins>The Project and Contributions</ins></h2> 
-My contributions were seen in the final level, notably in two sequences. The first has the player needing to reach an activated door, leading to a battle area before the second sequence where the player finishes the level with a basic Simon Says. Both include small, guiding cutscenes.<br>
+My contributions were seen in the final level, notably in two sequences. The first has the player needing to reach an activated door, leading to a battle area before the second sequence where the player finishes the level with a basic Simon Says. Both include small, guiding cutscenes.<br><br>
 
 Though simple, the level showcases vital cutscenes well, with a more methodical style that gives more rest or planning periods than previous levels. This is emphasised by simple but careful jumps with the first sequence alongside the puzzle sequence itself and the large combat space.<br><br>
 
@@ -75,7 +75,8 @@ The Simon Says area showcases the double jump power, its usage vital to navigate
 ```
 
 <p style="text-align: center;">
-This logic verifying correct/incorrect combinations was very convoluted and inefficient, being responsible for aforementioned issues. Recently, it has been fully overhauled.<br>
+This logic verifying correct/incorrect combinations was very convoluted and inefficient, being responsible for aforementioned issues. Recently, it has been fully overhauled.<br><br>
+
 The following is placed on each tile, now sending an activated tile's colour as a string to the new code if the new sequence string doesn't already contain it. This is done so the final string has each colour only once, as the correct sequence itself does.</p>
 
 
@@ -123,9 +124,9 @@ Though far more reliable and sound, this logic's issue is with the correct seque
 
 
 <h2><ins>Strengths and Shortcomings</ins></h2>
-Generally, the level did well in indicating vital information, also using time limits and testing jumping skills. Though the final effort was the module's main area, the creation of each element beforehand also gave valuable experience, with improvements on follow cameras and moving platforms as well as new areas such as spline camera movement and combat. Many of these elements though basic, are vital gameplay features, building upon foundations even further.<br>
+Generally, the level did well in indicating vital information, also using time limits and testing jumping skills. Though the final effort was the module's main area, the creation of each element beforehand also gave valuable experience, with improvements on follow cameras and moving platforms as well as new areas such as spline camera movement and combat. Many of these elements though basic, are vital gameplay features, building upon foundations even further.<br><br>
 
-There were also many notable issues, notably those in the initial Simon Says implementation and the segment's overall lack of randomisation. However, the overall level should've also had a firmer sense of difficulty and flow and reward in its design. It's very simple and far more so than levels before with its methodical approach, not posing a larger challenge or intensity as expected of a final level.<br>
+There were also many notable issues, notably those in the initial Simon Says implementation and the segment's overall lack of randomisation. However, the overall level should've also had a firmer sense of difficulty and flow and reward in its design. It's very simple and far more so than levels before with its methodical approach, not posing a larger challenge or intensity as expected of a final level.<br><br>
 
 As a result of these factors, there isn't much satisfaction from challenges or rewards provided, nor sense of escalation in progression. With improvements from this, it could be a fully constructed journey, with more satisfaction and immersion throughout.<br><br>
 

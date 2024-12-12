@@ -18,7 +18,7 @@ An introductory foundation for Maya and Unity skills (though the former was only
 
 
 <h2><ins>The Project</ins></h2>
-An experience using a tank model (with animations showcasing its parts) created in Maya, to traverse an island with obstructions requiring situational weapons to pass. They were allowed to be imaginative, resulting in such things as Galaxy Minstrel bullets knocking Maltesers down a mountain to clear the way of cubes.<br>
+An experience using a tank model (with animations showcasing its parts) created in Maya, to traverse an island with obstructions requiring situational weapons to pass. They were allowed to be imaginative, resulting in such things as Galaxy Minstrel bullets knocking Maltesers down a mountain to clear the way of cubes.<br><br>
 
 The tutorials' player avatar was also used, though was only required for travelling to the tank. Its controls were abnormal due to the basic coding and resembled tank controls.<br><br>
 
@@ -64,7 +64,7 @@ Though this was enough for the tunnel cameras, the cutscene camera's movement wa
 <br>
 <p style="text-align: center;">
 <h2><ins>Strengths and Shortcomings</ins></h2>
-The module gave a great foundation for many different yet vital areas to grow, with overall Unity as the most notable but others such as camera work, animations and character controls also took root here and grew further in later projects. It also really let imagination flow and helped liven up the obstacles and weapons!<br>
+The module gave a great foundation for many different yet vital areas to grow, with overall Unity as the most notable but others such as camera work, animations and character controls also took root here and grew further in later projects. It also really let imagination flow and helped liven up the obstacles and weapons!<br><br>
 
 However, there were notable issues with the tank's controls, notably with aiming. These were due to difficulty learning Maya and modelling alongside the implementation in Unity which as a result of the difficulties, locked aiming to a 1st person view, and caused skewed controls with the view camera.<br><br>
 

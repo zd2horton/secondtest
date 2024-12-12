@@ -127,7 +127,7 @@ Space Invader's quadratic option moved ships in another parabola, and sine gave 
 <br>
 <p style="text-align: center;">
 <h2><ins>Strengths and Shortcomings</ins></h2>
-The projects showcased curves well and proved valuable as a whole in starting with C# and game development. The module began with basic coding tasks such as a number guessing game which could be done with prior experience, though each task including these helped lay foundations for the rest of the courses.<br>
+The projects showcased curves well and proved valuable as a whole in starting with C# and game development. The module began with basic coding tasks such as a number guessing game which could be done with prior experience, though each task including these helped lay foundations for the rest of the courses.<br><br>
 
 However, both projects have basic appearances which visual polish would've helped. Additionally, Siege Attack would've benefitted from weightier more satisfying physics, and general quality of life such as indicators for cannonball paths. Meanwhile, Space Invaders' additional modes have some issues (gravity ships dropping quickly and lopsided, sine ships waving too rapidly) and the ship's bullets occasionally spawn incorrectly.<br><br>
 
