@@ -14,11 +14,13 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
 <p style="text-align: center;">
 <h2><ins>The Module and Tools</ins></h2>
-ESD (Entertainment Software Development) involved developing many C++ projects in the proprietary ASGE engine. The engine was very flexible, giving initial C++ development experience where basic or even more complex games could be developed, ranging from the games discussed here to an online card game (shown in "LLP: Play and Games").<br>
-
+A beginner C++ module using the flexible and proprietary ASGE engine. A valuable foundation for creating both basic and complex games, with transferable values across the entire course.
 
 <h2><ins>The Projects</ins></h2>
-Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) though basic, were good examples of ASGE in this module, providing different uses for calculated curves in their physics! Siege Attack had a unique method of importing levels, done through loading text files detailing each block's data for the level. </p>
+Simple "Space Invaders" and "Angry Birds" projects with different uses for calculated curves! Siege Attack used a basic parabola while Space Invaders also used gravity, quadratic and sine inspired movements as alternate modes. Though basic, these were good early examples of ASGE's potential.
+
+<h2><ins>Notable Areas</ins></h2>
+Siege Attack loaded levels through text files detailing block data. The following runs after loading the text file, first collecting the data (sprite, map co-ordinates) then using it to set up individual block objects.</p>
 
 ```cpp
 		if (text_file.is_open())
@@ -51,13 +53,8 @@ Both Space Invaders and "Siege Attack" (an Angry Birds-esque game) though basic,
 ```
 
 <p style="text-align: center;">
-This extract runs after loading the file, with the first segment collecting the data (sprite location, map co-ordinates) as a group of arrays. After conversion, the next segment gives each block's data a sprite renderer, and fully places down the blocks where needed.<br><br>
-
-
-<h2><ins>Notable Areas</ins></h2>
-Both projects used different curves, Siege Attack using a more basic parabola while Space Invaders used gravity, quadratic and sine inspired movements as alternate modes.<br><br>
-
-The quadratic movement moved ships in another parabola curve, while sine movement gave more "robotic" alternating movement. Siege Attack in the following exerpt decays the cannonball in the parabola curve, decelerating each axis' velocity:
+<br>
+In its usage of calculated curves, its parabola decays the cannonball by decelerating each axis' velocity:
 </p>
 
 ```cpp
@@ -96,7 +93,7 @@ The quadratic movement moved ships in another parabola curve, while sine movemen
 ```
 		
 <p style="text-align: center;">
-While the quadratic and sine movements for Space Invaders utilise their specific calculations for each ship's new co-ordinates:
+Space Invader's quadratic option moved ships in another parabola, and sine gave more "robotic" movement. Both are shown below:
 </p>
 
 ```cpp
@@ -127,12 +124,13 @@ While the quadratic and sine movements for Space Invaders utilise their specific
 				enemies_direction *= -1;
 			}
 ```
-<br><br>
+<br>
+<p style="text-align: center;">
 <h2><ins>Strengths and Shortcomings</ins></h2>
-The projects were great at showcasing curves and were also valuable as a whole in starting with C# and game coding. The module began with basic examples of coding such as a number guessing game which were able to be done with prior experience, but each task leading up to and including these helped in creating new foundations for the rest of the courses.<br>
+The projects showcased curves well and proved valuable as a whole in starting with C# and game development. The module began with basic coding tasks such as a number guessing game which could be done with prior experience, though each task including these helped lay foundations for the rest of the courses.<br>
 
-However, with both projects, more visual polish would have helped upgrade their basic appearances. Alongside this, Siege Attack's cannonballs don't give a directional indicator when pulled back and also lack a weighty feeling, both of these not giving much satisfying feedback. Meanwhile, Space Invaders has issues with its different modes, and the ship's owns bullets can sometimes spawn notably far from it especially if the ship is moving. The gravity and sine modes in specific have notable issues, with the former dropping down far too quickly in a lopsided fashion and the latter having too small a curve, giving the enemies a rapid vibrating appearance.<br><br>
+However, both projects have basic appearances which visual polish would've helped. Additionally, Siege Attack would've benefitted from weightier more satisfying physics, and general quality of life such as indicators for cannonball paths. Meanwhile, Space Invaders' additional modes have some issues (gravity ships dropping quickly and lopsided, sine ships waving too rapidly) and the ship's bullets occasionally spawn incorrectly.<br><br>
 
 
 <h2><ins>In Review</ins></h2>
-Looking back, both projects were handled well for the time and were good showings of what was learned during that period. The module overall was also notable in providing a great foundation for the rest of the modules, even if C# and ASGE were not the focal points of most. The projects would have benefitted from notable polish however, both in visual and gameplay oriented ways as discussed.
+At the time, the projects were handled well and good showcases of learned skills. The module also laid a great foundation for the rest, regardless of C#/ASGE usage or lack thereof. If revisited, notable attention given to visuals and gameplay fixes would dramatically improved them.</p>

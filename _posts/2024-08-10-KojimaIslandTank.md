@@ -14,17 +14,17 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
 <p style="text-align: center;">
 <h2><ins>The Module and Tools</ins></h2>
-Principles of 3D Environments introduced development and usage of both Maya and Unity skills (though the former was only used for this module), combining together for a finished experience. Before this combination effort, Unity tutorials were given as to familiarise with the engine and some of its basic capabilities.<br>
+An introductory foundation for Maya and Unity skills (though the former was only used for this module), familarising basics through tutorials before combining together for a finished experience.<br>
 
 
 <h2><ins>The Project</ins></h2>
-Through Maya, a tank model was created alongside detailed animations showcasing its various parts, with this being used in Unity as a playable vehicle to traverse a large island. The tank also recieved unique situational weapons for use with various obstacles, such as Galaxy Minstrel bullets for knocking down a box of Maltesers to clear the road of obstructing cubes.<br>
+An experience using a tank model (with animations showcasing its parts) created in Maya, to traverse an island with obstructions requiring situational weapons to pass. They were allowed to be imaginative, resulting in such things as Galaxy Minstrel bullets knocking Maltesers down a mountain to clear the way of cubes.<br>
 
-Alongside this, a player avatar from the prior tutorials was used. Its controls were notably abnormal though, resembling tank controls due to its development and the module's beginner nature. However, the experience only required the avatar to travel to the tank, primarily via a travelling platform.<br><br>
+The tutorials' player avatar was also used, though was only required for travelling to the tank. Its controls were abnormal due to the basic coding and resembled tank controls.<br><br>
 
 
 <h2><ins>Notable Areas</ins></h2>
-There was also experimentation with cameras, notably with tunnel view cameras, a tank wheel camera and a moving cutscene camera. The wheel camera was set as a child of the tank and was toggled as desired, while the other cameras were toggled similarly to the following extract, changing camera activities as needed in the map:</p>
+Cameras were experimented with, notably ones for a tank wheel view, a view from a tunnel and a moving cutscene. The cameras for the latter two were toggled similarly to the following, changing views as needed:</p>
 
 ```cs
     void OnTriggerEnter(Collider other)
@@ -48,7 +48,7 @@ There was also experimentation with cameras, notably with tunnel view cameras, a
 ```
 
 <p style="text-align: center;">
-This sufficed for the tunnel cameras, but the cutscene camera's movement was created by moving from designated points in a basic way, as seen in this extract:</p>
+Though this was enough for the tunnel cameras, the cutscene camera's movement was done by basic movement from designated points as shown:</p>
 
 ```cs
 	if (this.transform.position != point1.transform.position)
@@ -61,16 +61,13 @@ This sufficed for the tunnel cameras, but the cutscene camera's movement was cre
 		nextPoint = true;
 	}
 ```
-<br><br>
-
+<br>
 <p style="text-align: center;">
 <h2><ins>Strengths and Shortcomings</ins></h2>
-The project allowed for many different aspects to begin and grow. Though general Unity is the notable highlight, others such as camera work, animations and character controls also had foundations with the project and were able to be developed further in later projects. The experience was also open to a lot of imagination, which helped liven the obstacles and weapons!<br>
+The module gave a great foundation for many different yet vital areas to grow, with overall Unity as the most notable but others such as camera work, animations and character controls also took root here and grew further in later projects. It also really let imagination flow and helped liven up the obstacles and weapons!<br>
 
-However, issues surrounding the tank's controls, notably with aiming, were apparent. This was due to difficulties with modelling in Maya alongside the eventual implementation in Unity which, as it locked aiming to a first-person view, caused skewed controls with the view's camera. As aforementioned, progress in Maya was notably stilted as modelling was an area that felt difficult to understand.<br><br>
+However, there were notable issues with the tank's controls, notably with aiming. These were due to difficulty learning Maya and modelling alongside the implementation in Unity which as a result of the difficulties, locked aiming to a 1st person view, and caused skewed controls with the view camera.<br><br>
 
 
 <h2><ins>In Review</ins></h2>
-Though the project's issues were bothersome, with movement generally stilted and slower than desired, it overall went well considering the lack of experience in both applications beforehand. The Unity work in specific provided valuable foundation to build from in Unity, and as experience would progress, many areas including camera and movement mechanics would be improved with far more optimised scripting.<br>
-
-Movement in particular would be notably smoothed out for the avatar character in the following year's "Gameplay Programming", one of a number of future experiences which would prove very valuable to a remastering of this project. The aiming system would also be a focal point in a remastering, likely having more attributes about it to limit so that the camera would not prove problematic.</p>
+Though issues like stilted slow movement weren't ideal, the overall project went well considering lack of any prior experience in Unity or Maya. The Unity side was a valuable foundation and as learning continued, many areas like camera and movement mechanics were optimised in code and refined far more. Character movement was notably refined in the following year's "Gameplay Programming", one of many experiences that may help remaster this project. The aiming system would be a large focal point and should become smoother to use.<br></p>
