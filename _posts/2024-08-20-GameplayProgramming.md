@@ -19,7 +19,7 @@ Development of gameplay oriented elements (movement, power-ups, cutscenes, enemi
 
 
 <h2><ins>The Project and Contributions</ins></h2> 
-My contributions were seen in the final level, notably in two sequences. The first has the player needing to reach an activated door, leading to a battle area before the second sequence where the player finishes the level with a basic Simon Says. Both include small, guiding cutscenes.<br><br>
+My contributions were seen in the final level, notably in two sequences. The first has the player needing to reach an activated door, leading to a battle area before the second sequence where the player finishes the level with a basic Simon Says. Both include small, guiding cutscenes.<br><br><br>
 
 Though simple, the level showcases vital cutscenes well, with a more methodical style that gives more rest or planning periods than previous levels. This is emphasised by simple but careful jumps with the first sequence alongside the puzzle sequence itself and the large combat space.<br><br>
 
