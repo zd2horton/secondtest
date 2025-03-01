@@ -14,7 +14,7 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
 ---
 
 <p style="text-align: center;">
-<h2><ins>The Module</ins></h2>
+<h2><ins>The Module and Project</ins></h2>
     <ul>
     <li>Development of gameplay oriented elements both newly and familiarly tackled, via tutorials.</li>
     <li>These included movement, power-ups, cutscenes, enemies and more.</li>
@@ -22,14 +22,14 @@ bannerimage: "/zd2hortontest.github.io/assets/img/UniProjects.png"
     </ul><br>
 
 
-<h2><ins>The Project and Contributions</ins></h2> 
-My contributions were seen in the final level, notably in two sequences. The first has the player needing to reach an activated door, leading to a battle area before the second sequence where the player finishes the level with a basic Simon Says. Both include small, guiding cutscenes.<br><br><br>
+<h2><ins>My Contributions</ins></h2> 
+These were seen in the final level, notably in two sequences. The first has the player activate a timed door to reach, leading to a battle area before the second sequence, a basic Simon Says, ends the level. Both include small, guiding cutscenes.<br><br><br>
 
-Though simple, the level showcases vital cutscenes well, with a more methodical style that gives more rest or planning periods than previous levels. This is emphasised by simple but careful jumps with the first sequence alongside the puzzle sequence itself and the large combat space.<br><br>
+The level showcases vital cutscenes well, though has a simpler playstyle than previous levels, also allowing rest periods. Simple careful jumps at the beginning showcase this, alongside the large combat space and the final sequence.<br><br>
 
 
 <h2><ins>Notable Areas</ins></h2>
-The Simon Says area showcases the double jump power, its usage vital to navigate the panels. This wasn't implemented well at first, spawning issues from registering a colour more than once when stepped on, to failing the player even when correct. The following contributed to such: </p>
+The Simon Says area highlights the double jump power, it being vital for navigation. The initial implementation caused issues however, such as counting a colour many times when stepped on, or failing the player even when correct. The following contributed to such: </p>
 
 
 ```cs
@@ -79,9 +79,9 @@ The Simon Says area showcases the double jump power, its usage vital to navigate
 ```
 
 <p style="text-align: center;">
-This logic verifying correct/incorrect combinations was very convoluted and inefficient, being responsible for aforementioned issues. Recently, it has been fully overhauled.<br><br>
+This logic used to verify combinations was very convoluted and inefficient, thus causing issues. It has been fully overhauled as of recent.<br><br>
 
-The following is placed on each tile, now sending an activated tile's colour as a string to the new code if the new sequence string doesn't already contain it. This is done so the final string has each colour only once, as the correct sequence itself does.</p>
+Each tile now has the following, sending its colour when activated to a new sequence string if it doesn't already contain it. This is done so the final string has each colour only once, as the correct sequence itself does.</p>
 
 
 ```cs 
@@ -103,7 +103,7 @@ The following is placed on each tile, now sending an activated tile's colour as 
 ```
 
 <p style="text-align: center;">
-The following is the new logic, triggering after each colour has been used. As the correct order is a constant, the final string can be directly checked with it. </p>
+The following new logic triggers once each colour is sent. The correct order does not vary, so it can compared reliably. </p>
 
 ```cs
  private void Update()
@@ -124,7 +124,7 @@ The following is the new logic, triggering after each colour has been used. As t
     }
 ```
 <p style="text-align: center;">
-Though far more reliable and sound, this logic's issue is with the correct sequence being hardcoded, and relies in all ways on it being one of each colour. Ideally, the puzzle would reset after touching three tiles as before, and allow wholly randomised orders. Due to the tiles' nature and collisions however, this present logic was implemented. <br><br>
+Though far more reliable and sound, this logic was implemented due to the tiles' limiting nature and collisions, thus the sequence is more set in stone and hardcoded. Ideally, the puzzle would orient more around randomised orders. <br><br>
 
 
 <h2><ins>Strengths and Shortcomings</ins></h2>
